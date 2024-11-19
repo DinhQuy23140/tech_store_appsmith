@@ -1,0 +1,4 @@
+{
+  "email": "{{Input2.text}}",
+  "username": "{{Input3.text}}"
+}

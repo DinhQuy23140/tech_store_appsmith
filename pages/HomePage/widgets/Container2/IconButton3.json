@@ -10,25 +10,35 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "user",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "vw2si5zo7a",
-  "leftColumn": 54,
+  "leftColumn": 52,
   "minWidth": 50,
   "mobileBottomRow": 7,
   "mobileLeftColumn": 52,
   "mobileRightColumn": 56,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
+  "onClick": "{{ appsmith.store.resultname ? storeValue('resultname', \"\") : navigateTo('LoginPage', {}) }}\n",
   "parentColumnSpace": 17.625,
   "parentId": "mphf1naibw",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 56,
+  "rightColumn": 54,
   "topRow": 3,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,

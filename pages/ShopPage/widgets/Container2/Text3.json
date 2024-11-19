@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -21,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6v1vlssz1x",
-  "leftColumn": 56,
+  "leftColumn": 54,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,7 +33,7 @@
   "mobileRightColumn": 59,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "originalBottomRow": 7,
+  "originalBottomRow": 8,
   "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 17.625,
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 59,
   "shouldTruncate": false,
-  "text": "Login",
+  "text": "{{ appsmith.store.resultname ? appsmith.store.resultname : \"login\" }}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 3,

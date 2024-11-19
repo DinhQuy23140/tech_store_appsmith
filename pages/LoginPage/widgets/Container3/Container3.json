@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
   "backgroundColor": "#bfbfbf",
-  "borderColor": "transparent",
+  "borderColor": "#E0DEDE",
   "borderRadius": "0px",
   "borderWidth": "1",
-  "bottomRow": 525,
-  "boxShadow": "none",
+  "bottomRow": 27,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 4540,
+      "bottomRow": 60,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -26,7 +26,7 @@
       "flexLayers": [],
       "isLoading": false,
       "isVisible": true,
-      "key": "p7yt2c8hx4",
+      "key": "0f45tzw792",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "uek0cu0dlr",
+      "parentId": "mmkuvx499t",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,30 +46,32 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ehla3n8ixl",
-      "widgetName": "Canvas4"
+      "widgetId": "mnrk5vnhcn",
+      "widgetName": "Canvas3"
     }
   ],
   "containerStyle": "card",
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "boxShadow"
+    }
+  ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
-  "key": "tyv6ym9876",
+  "key": "stcwcqpv3e",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "mobileBottomRow": 134,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 124,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 22,
   "needsErrorInfo": false,
-  "originalBottomRow": 525,
-  "originalTopRow": 71,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -77,9 +79,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldScrollContents": true,
-  "topRow": 71,
+  "topRow": 21,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "uek0cu0dlr",
-  "widgetName": "Container4"
+  "widgetId": "mmkuvx499t",
+  "widgetName": "Container3"
 }
