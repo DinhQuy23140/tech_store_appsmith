@@ -1,0 +1,61 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 76,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "events": [],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "mcumli6mj4",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 117,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 3,
+  "mobileTopRow": 87,
+  "needsErrorInfo": false,
+  "originalBottomRow": 77,
+  "originalTopRow": 27,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "#root {\n  position: relative;\n}\n\n.title_box {\n  position: absolute;\n  top: 80px;\n  left: 180px;\n}\n\n.title {\n  display: block;\n  background-color: red;\n  color: white;\n  width: 120px;\n  text-align: center;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.title_h1 {\n  display: block;\n  width: 400px;\n  font-size: 3rem;\n  font-family: Arial, Helvetica, sans-serif;\n  margin: 0;\n}\n\n.title_span {\n  display: block;\n  font-size: 1.5em;\n  margin: 10px 0;\n  font-family: Arial, Helvetica, sans-serif;\n}\n\n.title_btn {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 150px;\n  height: 50px;\n  border-radius: 25px;\n  border: 1px #751FFF;\n  background-color: #751FFF;\n}\n\n.title_img {\n  width: 100%;\n  height: 100%;\n}",
+    "html": "<div id=\"root\">\n        <div class=\"title_box\">\n            <h3 class=\"title\">Best Prices</h3>\n            <h1 class=\"title_h1\">Incredible Prices on All Your Favorite Items</h1>\n            <span class=\"title_span\">Get more for less on selected brands</span>\n            <button class=\"title_btn\">Shop now</button>\n        </div>\n        <img class=\"title_img\" src=\"https://static.wixstatic.com/media/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png/v1/fill/w_1899,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png\" alt=\"\">\n    </div>\n",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 27,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "#root{\n    position: relative;\n}\n\n.title_box{\n    position: absolute;\n    top: 80px;\n    left: 180px;\n}\n.title{\n    display: block;\n    background-color: red;\n    color: white;\n    width: 120px;\n    text-align: center;\n    font-family: Arial, Helvetica, sans-serif;\n}\n\n.title_h1{\n    display: block;\n    width: 400px;\n    font-size: 3rem;\n    font-family: Arial, Helvetica, sans-serif;\n    margin: 0;\n}\n.title_span{\n    display: block;\n    font-size: 1.5em;\n    margin: 10px 0;\n    font-family: Arial, Helvetica, sans-serif;\n}\n.title_btn{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 150px;\n    height: 50px;\n    border-radius: 25px ;\n    border: 1px #751FFF;\n    background-color: #751FFF;\n}\n.title_img{\n    width: 100%;\n    height: 100%;\n}",
+    "html": "<div id=\"root\">\n        <div class=\"title_box\">\n            <h3 class=\"title\">Best Prices</h3>\n            <h1 class=\"title_h1\">Incredible Prices on All Your Favorite Items</h1>\n            <span class=\"title_span\">Get more for less on selected brands</span>\n            <button class=\"title_btn\">Shop now</button>\n        </div>\n        <img class=\"title_img\" src=\"https://static.wixstatic.com/media/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png/v1/fill/w_1899,h_706,al_r,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_837f9cd4f59146c3ad47a2bd882fedfd~mv2.png\" alt=\"\">\n    </div>\n",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "to7qdgm3is",
+  "widgetName": "Custom1"
+}

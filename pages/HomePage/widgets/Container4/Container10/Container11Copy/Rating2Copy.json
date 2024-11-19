@@ -1,0 +1,48 @@
+{
+  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 48,
+  "defaultRate": 3,
+  "dynamicBindingPathList": [
+    {
+      "key": "activeColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "inactiveColor": "#E0DEDE",
+  "isAllowHalf": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isReadOnly": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "t5t95r6coo",
+  "leftColumn": 3,
+  "maxCount": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 44,
+  "needsErrorInfo": false,
+  "originalBottomRow": 50,
+  "originalTopRow": 44,
+  "parentColumnSpace": 3.7421722412109375,
+  "parentId": "r9cej3d50x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 41,
+  "size": "LARGE",
+  "tooltips": [
+    "Terrible",
+    "Bad",
+    "Neutral",
+    "Good",
+    "Great"
+  ],
+  "topRow": 44,
+  "type": "RATE_WIDGET",
+  "widgetId": "59r8yffg0j",
+  "widgetName": "Rating2Copy"
+}
