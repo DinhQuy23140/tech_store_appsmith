@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 149,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4rxsfsdure",
+  "leftColumn": 31,
+  "minWidth": 120,
+  "mobileBottomRow": 148,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 144,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('HomePage', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "egmltmoxsu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 41,
+  "text": "Exit",
+  "topRow": 144,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3uejx6li11",
+  "widgetName": "Button4"
+}

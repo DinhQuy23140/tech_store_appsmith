@@ -1,20 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 4,
   "boxShadow": "none",
-  "buttonColor": "#18181b",
-  "buttonVariant": "SECONDARY",
+  "buttonColor": "#231f20",
+  "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
-    }
-  ],
-  "dynamicPropertyPathList": [
     {
       "key": "borderRadius"
     }
@@ -24,27 +16,27 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "2vqb88moc0",
-  "leftColumn": 60,
+  "key": "p89u6th6r5",
+  "leftColumn": 24,
   "minWidth": 120,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 4,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "parentColumnSpace": 17.625,
-  "parentId": "tcgn541krb",
+  "parentColumnSpace": 19.5,
+  "parentId": "w3ej55volt",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "{{countItemCart.data[0][[\"COUNT(productID)\"]]\n}}",
-  "topRow": 3,
+  "rightColumn": 28,
+  "text": "Audio",
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "2tvfchpzzj",
-  "widgetName": "Button5"
+  "widgetId": "o5ipon1nxi",
+  "widgetName": "Button2Copy3"
 }

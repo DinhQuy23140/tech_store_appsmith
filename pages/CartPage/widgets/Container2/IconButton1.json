@@ -10,16 +10,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconName": "shopping-cart",
   "isDisabled": false,
   "isLoading": false,
@@ -32,9 +23,8 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{ appsmith.store.resultname ? (navigateTo(\"CartPage\", {})) : (navigateTo(\"LoginPage\", {}))}}",
   "parentColumnSpace": 19.5,
-  "parentId": "tcgn541krb",
+  "parentId": "l7tfklaxu6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
@@ -42,6 +32,6 @@
   "topRow": 3,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "x9n6dybolw",
+  "widgetId": "jjob7l5hv9",
   "widgetName": "IconButton1"
 }

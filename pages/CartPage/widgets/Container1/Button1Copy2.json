@@ -1,20 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "buttonColor": "#18181b",
-  "buttonVariant": "SECONDARY",
+  "buttonColor": "transparent",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
-    }
-  ],
-  "dynamicPropertyPathList": [
     {
       "key": "borderRadius"
     }
@@ -24,27 +16,27 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "2vqb88moc0",
-  "leftColumn": 60,
+  "key": "5mxc4wl771",
+  "leftColumn": 44,
   "minWidth": 120,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "parentColumnSpace": 17.625,
-  "parentId": "tcgn541krb",
+  "parentColumnSpace": 19.1904296875,
+  "parentId": "lifhmw5j8v",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "{{countItemCart.data[0][[\"COUNT(productID)\"]]\n}}",
-  "topRow": 3,
+  "rightColumn": 48,
+  "text": "Contact",
+  "topRow": 1,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "2tvfchpzzj",
-  "widgetName": "Button5"
+  "widgetId": "h1haupfph0",
+  "widgetName": "Button1Copy2"
 }

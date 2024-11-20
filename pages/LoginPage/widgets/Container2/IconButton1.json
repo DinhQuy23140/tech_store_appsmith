@@ -10,7 +10,16 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "shopping-cart",
   "isDisabled": false,
   "isLoading": false,
@@ -23,6 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
+  "onClick": "",
   "parentColumnSpace": 19.5,
   "parentId": "9sq14tvtxh",
   "parentRowSpace": 10,
