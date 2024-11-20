@@ -1,12 +1,9 @@
 {
-  "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+  "activeColor": "#fde047",
   "animateLoading": true,
   "bottomRow": 34,
   "defaultRate": "{{currentItem.rating[\"rate\"]}}",
   "dynamicBindingPathList": [
-    {
-      "key": "activeColor"
-    },
     {
       "key": "defaultRate"
     }
@@ -14,7 +11,7 @@
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "inactiveColor": "#E0DEDE",
-  "isAllowHalf": false,
+  "isAllowHalf": true,
   "isDisabled": false,
   "isLoading": false,
   "isReadOnly": false,

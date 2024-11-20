@@ -1,0 +1,2 @@
+INSERT INTO users (name, phone, email, password) 
+VALUES ('{{Input2.text}}', '{{Input5.text}}', '{{Input3.text}}', '{{Input4.text}}');

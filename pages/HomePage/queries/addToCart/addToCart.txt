@@ -1,0 +1,9 @@
+IF EXISTS (SELECT 1 FROM carts WHERE productID = {{List1.selectedItem.id}} AND userID = {{appsmith.store.resultId}})
+THEN
+    UPDATE carts
+    SET quantityOrder = quantityOrder + 1
+    WHERE productID = {{List1.selectedItem.id}} AND userID = {{appsmith.store.resultId}};
+ELSE
+    INSERT INTO carts (productID, userID, quantityOrder)
+    VALUES ({{List1.selectedItem.id}}, {{appsmith.store.resultId}}, 1);
+END IF;

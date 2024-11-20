@@ -36,7 +36,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{ \n  (Input2.text.length > 0 && Input3.text.length > 0) ? (\n    loginAuth.run(() => {\n      const result = loginAuth?.data;\n      \n      if (result && result.length === 1) {\nstoreValue('resultname', result[0].name);\nnavigateTo('HomePage', { name: result[0].name });\n      } else {\n        showAlert('Invalid username/password', 'error');\n      }\n    })\n  ) : showAlert(\"Input is required\", 'error');\n}}\n",
+  "onClick": "{{ \n  (Input2.text.length > 0 && Input3.text.length > 0) ? (\n    auth.run(() => {\n      const result = auth?.data;\n      \n      if (result && result.length === 1) {\nstoreValue('resultname', result[0].name);\nstoreValue('resultId', result[0].id)\nnavigateTo('HomePage', { name: result[0].name });\n      } else {\n        showAlert('Invalid username/password', 'error');\n      }\n    })\n  ) : showAlert(\"Input is required\", 'error');\n}}\n",
   "parentId": "08whdyvfw6",
   "placement": "CENTER",
   "recaptchaType": "V3",

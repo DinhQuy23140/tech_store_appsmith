@@ -36,7 +36,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{addData.run(() => {\n          const result = addData?.data;\n          if (result) {\n              showAlert(\"Signup success\");\n              navigateTo('LoginPage', {});\n          } else {\n              showAlert(\"Signup failed!\");\n          }\n      })}}",
+  "onClick": "{{signup.run(() => {\n          const result = signup?.data;\n          if (result) {\n              showAlert(\"Signup success\");\n              navigateTo('LoginPage', {});\n          } else {\n              showAlert(\"Signup failed!\");\n          }\n      })}}",
   "parentId": "w3156d4qfa",
   "placement": "CENTER",
   "recaptchaType": "V3",

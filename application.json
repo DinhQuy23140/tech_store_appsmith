@@ -35,6 +35,10 @@
     {
       "id": "SignupPage",
       "isDefault": false
+    },
+    {
+      "id": "CartPage",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

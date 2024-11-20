@@ -1,50 +1,46 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 34,
   "boxShadow": "none",
-  "buttonColor": "#18181b",
-  "buttonVariant": "SECONDARY",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "borderRadius"
+      "key": "buttonColor"
     },
     {
-      "key": "text"
-    }
-  ],
-  "dynamicPropertyPathList": [
-    {
       "key": "borderRadius"
     }
   ],
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "2vqb88moc0",
-  "leftColumn": 60,
+  "key": "4rxsfsdure",
+  "leftColumn": 48,
   "minWidth": 120,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 39,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 35,
   "needsErrorInfo": false,
-  "parentColumnSpace": 17.625,
-  "parentId": "hn3yk5483v",
+  "parentColumnSpace": 13.056640625,
+  "parentId": "cnbi4hdue6",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "{{countItemCart.data[0][[\"COUNT(productID)\"]]\n}}",
-  "topRow": 3,
+  "rightColumn": 58,
+  "text": "Buy",
+  "topRow": 30,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "1n1pzbik07",
-  "widgetName": "Button5Copy"
+  "widgetId": "j6cw9zxodt",
+  "widgetName": "Button7"
 }

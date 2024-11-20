@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE email = {{Input2.text}} AND password = {{Input3.text}};
