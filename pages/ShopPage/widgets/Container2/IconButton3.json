@@ -10,28 +10,38 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconName": "user",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "vw2si5zo7a",
-  "leftColumn": 52,
+  "leftColumn": 49,
   "minWidth": 50,
   "mobileBottomRow": 7,
   "mobileLeftColumn": 52,
   "mobileRightColumn": 56,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
+  "onClick": "{{\nstoreValue('resultname', \"\"); navigateTo('LoginPage', {});}}\n",
   "parentColumnSpace": 17.625,
-  "parentId": "gvpu2w2nhy",
+  "parentId": "tcgn541krb",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 54,
+  "rightColumn": 51,
   "topRow": 3,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "whanxlt2v5",
+  "widgetId": "cts5xz4e78",
   "widgetName": "IconButton3"
 }

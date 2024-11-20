@@ -40,7 +40,7 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "parentColumnSpace": 17.625,
-  "parentId": "bhoxd6brgp",
+  "parentId": "9sq14tvtxh",
   "parentRowSpace": 10,
   "placeholderText": "Enter name....\n",
   "renderMode": "CANVAS",
@@ -51,6 +51,6 @@
   "topRow": 3,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "zqqro2fg8m",
+  "widgetId": "tgroj203b8",
   "widgetName": "Input1"
 }

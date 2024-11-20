@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -21,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6v1vlssz1x",
-  "leftColumn": 56,
+  "leftColumn": 51,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -34,19 +37,19 @@
   "originalTopRow": 3,
   "overflow": "NONE",
   "parentColumnSpace": 17.625,
-  "parentId": "bhoxd6brgp",
+  "parentId": "9sq14tvtxh",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 56,
   "shouldTruncate": false,
-  "text": "Login",
+  "text": "{{ appsmith.store.resultname ? appsmith.store.resultname : \"login\" }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 3,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "uq5yd8ynm9",
+  "widgetId": "leluxoclws",
   "widgetName": "Text3"
 }
