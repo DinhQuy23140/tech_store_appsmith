@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 33,
   "shouldTruncate": false,
-  "text": "{{currentItem.rating[\"count\"]}}",
+  "text": "{{currentItem.rating_count}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 30,

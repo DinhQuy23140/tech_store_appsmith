@@ -1,0 +1,1 @@
+UPDATE users SET name='{{Input2.text}}', phone='{{Input3.text}}' where id='{{appsmith.store.resultId}}'

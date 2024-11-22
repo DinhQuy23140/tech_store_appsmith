@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 149,
+  "bottomRow": 150,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 146,
   "needsErrorInfo": false,
-  "originalBottomRow": 149,
-  "originalTopRow": 144,
+  "originalBottomRow": 150,
+  "originalTopRow": 145,
   "overflow": "NONE",
   "parentColumnSpace": 19.5,
   "parentId": "egmltmoxsu",
@@ -43,10 +43,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 19,
   "shouldTruncate": false,
-  "text": "{{\"Total price: \" + totalPay.data[0].totalAmount + \"$\"}}",
+  "text": "{{\n\"Total price: \" + (totalPay.data.length > 0 && totalPay.data[0].totalAmount \n  ? totalPay.data[0].totalAmount + \"$\" \n  : \"0$\")\n}}\n",
   "textAlign": "LEFT",
   "textColor": "#ef4444",
-  "topRow": 144,
+  "topRow": 145,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

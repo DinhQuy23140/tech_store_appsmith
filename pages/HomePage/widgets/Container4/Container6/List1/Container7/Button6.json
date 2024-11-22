@@ -36,7 +36,7 @@
   "mobileRightColumn": 54,
   "mobileTopRow": 30,
   "needsErrorInfo": false,
-  "onClick": "{{(appsmith.store.resultname)?(addToCart.run(),\nshowAlert(\"Add to cart\")) : (showAlert(\"Login please!\"))}}",
+  "onClick": "{{(appsmith.store.resultId)?(addToCart.run(),\nshowAlert(\"Add to cart\")) : (showAlert(\"Login please!\"),\n\tnavigateTo(\"LoginPage\", {})\t)}}",
   "parentColumnSpace": 14.731718063354492,
   "parentId": "06c1rroo1u",
   "parentRowSpace": 10,

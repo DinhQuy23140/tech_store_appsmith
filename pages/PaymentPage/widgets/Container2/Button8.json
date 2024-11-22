@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "z5y2ubct1x",
+  "leftColumn": 51,
+  "minWidth": 120,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onClick": "{{\nappsmith.store.resultname ? (navigateTo('UserPage', {}, 'SAME_WINDOW')): (navigateTo(\"LoginPage\", {}, \"SAME_WINDOW\"))\n}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "rallny0jme",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 56,
+  "text": "{{ appsmith.store.resultname ? appsmith.store.resultname : \"login\" }}",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "06hjtr5no1",
+  "widgetName": "Button8"
+}

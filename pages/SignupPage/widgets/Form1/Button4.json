@@ -14,6 +14,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -26,6 +31,7 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('LoginPage', {}, 'SAME_WINDOW');}}",
   "parentId": "w3156d4qfa",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -33,7 +39,7 @@
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 44,
-  "text": "Reset",
+  "text": "Login",
   "topRow": 44,
   "type": "BUTTON_WIDGET",
   "version": 1,

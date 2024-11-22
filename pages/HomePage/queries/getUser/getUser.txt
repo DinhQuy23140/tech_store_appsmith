@@ -1,1 +1,1 @@
-SELECT * FROM users WHERE name == {{in}};
+SELECT name FROM users WHERE id = '{{appsmith.store.resultId}}';

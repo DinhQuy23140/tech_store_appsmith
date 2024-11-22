@@ -39,7 +39,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 76,
   "needsErrorInfo": false,
-  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "onResetClick": "{{showAlert('Successfully reset!!', '');\nnavigateTo('ShopPage', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.8125,
   "parentId": "ehla3n8ixl",
   "parentRowSpace": 10,

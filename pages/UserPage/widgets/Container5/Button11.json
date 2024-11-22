@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 45,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "saved",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "m6xmdwqayp",
+  "leftColumn": 7,
+  "minWidth": 120,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "onClick": "{{\n  (Input2.text.length > 0 && Input3.text.length > 0) ? \n    (updateUser.run()).then(result => {\n      if(result){\n        showAlert(\"Update success\", \"success\");\nstoreValue(\"resultname\", getUser.data[0].name);\t\t\t\tnavigateTo(\"UserPage\");\n      } else {\n        showAlert(\"Update failure\", \"error\");\n      }\n    }).catch(error => {\n      showAlert(\"Update failed with error: \" + error.message, \"error\");\n    }) :\n    showAlert(\"Input required\", \"warning\")\n}}\n",
+  "originalBottomRow": 41,
+  "originalTopRow": 35,
+  "parentColumnSpace": 13.6181640625,
+  "parentId": "7y5fgy7zi5",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 20,
+  "text": "Save",
+  "topRow": 39,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gm56kmmrxb",
+  "widgetName": "Button11"
+}

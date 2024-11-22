@@ -1,0 +1,4 @@
+SELECT p.*, c.quantityOrder 
+FROM products p
+INNER JOIN carts c ON p.id = c.productID
+WHERE c.userID = '{{appsmith.store.resultId}}';

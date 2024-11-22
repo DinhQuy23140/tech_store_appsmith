@@ -94,7 +94,7 @@
   "itemSpacing": 8,
   "key": "ssvx1k5qiv",
   "leftColumn": 5,
-  "listData": "{{fakeapi.data}}",
+  "listData": "{{getProducts.data}}",
   "mainCanvasId": "t054xip1cl",
   "mainContainerId": "cxohvbpu1n",
   "minWidth": 450,

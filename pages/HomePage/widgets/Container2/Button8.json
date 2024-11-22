@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "z5y2ubct1x",
+  "leftColumn": 51,
+  "minWidth": 120,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onClick": "{{\nappsmith.store.resultId ? (navigateTo('UserPage', {}, 'SAME_WINDOW')): (navigateTo(\"http://localhost:8080/app/userservice/loginpage-674002e3bab8f32719d4193b\", {}, \"SAME_WINDOW\"))\n}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "hn3yk5483v",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 56,
+  "text": "{{JSObject1.saveIdToStore.data[0].name}}\n",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "43tlcv9yej",
+  "widgetName": "Button8"
+}

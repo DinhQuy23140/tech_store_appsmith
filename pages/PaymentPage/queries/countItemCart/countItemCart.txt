@@ -1,0 +1,1 @@
+SELECT COUNT(productID) FROM carts WHERE userID='{{appsmith.store.resultId}}'

@@ -1,0 +1,38 @@
+{
+  "animateLoading": true,
+  "borderRadius": "4.5rem",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "user",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "c01i7o5n7p",
+  "leftColumn": 7,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 5.5693359375,
+  "parentId": "qmtb0dmarc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 26,
+  "topRow": 4,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6k9lhpd1j6",
+  "widgetName": "IconButton5"
+}

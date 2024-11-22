@@ -1,0 +1,47 @@
+{
+  "activeColor": "#fde047",
+  "animateLoading": true,
+  "bottomRow": 20,
+  "defaultRate": "{{currentItem.rating_rate}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultRate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "inactiveColor": "#E0DEDE",
+  "isAllowHalf": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isReadOnly": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "mpdk9xynmw",
+  "leftColumn": 19,
+  "maxCount": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 30,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.7052001953125,
+  "parentId": "moj5vbojv0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 31,
+  "size": "LARGE",
+  "tooltips": [
+    "Terrible",
+    "Bad",
+    "Neutral",
+    "Good",
+    "Great"
+  ],
+  "topRow": 16,
+  "type": "RATE_WIDGET",
+  "widgetId": "wfe59i9sv2",
+  "widgetName": "Rating1Copy"
+}

@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "81k7zik3hc",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Province",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "name",
+  "parentColumnSpace": 6.9375,
+  "parentId": "qhut21npm1",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"name\": \"An Giang\", \"code\": \"AG\" },\n  { \"name\": \"Bà Rịa - Vũng Tàu\", \"code\": \"BRVT\" },\n  { \"name\": \"Bắc Giang\", \"code\": \"BG\" },\n  { \"name\": \"Bắc Kạn\", \"code\": \"BK\" },\n  { \"name\": \"Bạc Liêu\", \"code\": \"BL\" },\n  { \"name\": \"Bắc Ninh\", \"code\": \"BN\" },\n  { \"name\": \"Bến Tre\", \"code\": \"BT\" },\n  { \"name\": \"Bình Định\", \"code\": \"BD\" },\n  { \"name\": \"Bình Dương\", \"code\": \"BDU\" },\n  { \"name\": \"Bình Phước\", \"code\": \"BP\" },\n  { \"name\": \"Bình Thuận\", \"code\": \"BTH\" },\n  { \"name\": \"Cà Mau\", \"code\": \"CM\" },\n  { \"name\": \"Cần Thơ\", \"code\": \"CT\" },\n  { \"name\": \"Cao Bằng\", \"code\": \"CB\" },\n  { \"name\": \"Đà Nẵng\", \"code\": \"DN\" },\n  { \"name\": \"Đắk Lắk\", \"code\": \"DL\" },\n  { \"name\": \"Đắk Nông\", \"code\": \"DN\" },\n  { \"name\": \"Điện Biên\", \"code\": \"DB\" },\n  { \"name\": \"Đồng Nai\", \"code\": \"DNA\" },\n  { \"name\": \"Đồng Tháp\", \"code\": \"DT\" },\n  { \"name\": \"Gia Lai\", \"code\": \"GL\" },\n  { \"name\": \"Hà Giang\", \"code\": \"HG\" },\n  { \"name\": \"Hà Nam\", \"code\": \"HN\" },\n  { \"name\": \"Hà Nội\", \"code\": \"HN\" },\n  { \"name\": \"Hà Tĩnh\", \"code\": \"HT\" },\n  { \"name\": \"Hải Dương\", \"code\": \"HD\" },\n  { \"name\": \"Hải Phòng\", \"code\": \"HP\" },\n  { \"name\": \"Hậu Giang\", \"code\": \"HG\" },\n  { \"name\": \"Hòa Bình\", \"code\": \"HB\" },\n  { \"name\": \"Hưng Yên\", \"code\": \"HY\" },\n  { \"name\": \"Khánh Hòa\", \"code\": \"KH\" },\n  { \"name\": \"Kiên Giang\", \"code\": \"KG\" },\n  { \"name\": \"Kon Tum\", \"code\": \"KT\" },\n  { \"name\": \"Lai Châu\", \"code\": \"LC\" },\n  { \"name\": \"Lâm Đồng\", \"code\": \"LD\" },\n  { \"name\": \"Lạng Sơn\", \"code\": \"LS\" },\n  { \"name\": \"Lào Cai\", \"code\": \"LC\" },\n  { \"name\": \"Long An\", \"code\": \"LA\" },\n  { \"name\": \"Nam Định\", \"code\": \"ND\" },\n  { \"name\": \"Nghệ An\", \"code\": \"NA\" },\n  { \"name\": \"Ninh Bình\", \"code\": \"NB\" },\n  { \"name\": \"Ninh Thuận\", \"code\": \"NT\" },\n  { \"name\": \"Phú Thọ\", \"code\": \"PT\" },\n  { \"name\": \"Phú Yên\", \"code\": \"PY\" },\n  { \"name\": \"Quảng Bình\", \"code\": \"QB\" },\n  { \"name\": \"Quảng Nam\", \"code\": \"QN\" },\n  { \"name\": \"Quảng Ngãi\", \"code\": \"QNG\" },\n  { \"name\": \"Quảng Ninh\", \"code\": \"QN\" },\n  { \"name\": \"Quảng Trị\", \"code\": \"QT\" },\n  { \"name\": \"Sóc Trăng\", \"code\": \"ST\" },\n  { \"name\": \"Sơn La\", \"code\": \"SL\" },\n  { \"name\": \"Tây Ninh\", \"code\": \"TN\" },\n  { \"name\": \"Thái Bình\", \"code\": \"TB\" },\n  { \"name\": \"Thái Nguyên\", \"code\": \"TN\" },\n  { \"name\": \"Thanh Hóa\", \"code\": \"TH\" },\n  { \"name\": \"Thừa Thiên Huế\", \"code\": \"TTH\" },\n  { \"name\": \"Tiền Giang\", \"code\": \"TG\" },\n  { \"name\": \"TP Hồ Chí Minh\", \"code\": \"HCM\" },\n  { \"name\": \"Trà Vinh\", \"code\": \"TV\" },\n  { \"name\": \"Tuyên Quang\", \"code\": \"TQ\" },\n  { \"name\": \"Vĩnh Long\", \"code\": \"VL\" },\n  { \"name\": \"Vĩnh Phúc\", \"code\": \"VP\" },\n  { \"name\": \"Yên Bái\", \"code\": \"YB\" }\n]\n",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "d9pg5ushkl",
+  "widgetName": "Select1"
+}

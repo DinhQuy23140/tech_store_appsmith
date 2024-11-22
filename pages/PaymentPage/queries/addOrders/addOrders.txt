@@ -1,0 +1,14 @@
+INSERT INTO orders (productID, userID, product, quantityOrder, priceEach, orderDate, purchaseAddress, status, purchaseType)
+SELECT 
+    p.id AS productID,
+    '{{appsmith.store.resultId}}' AS userID,
+    p.name AS product,
+    c.quantityOrder AS quantityOrder,
+    p.price AS priceEach,
+    '{{ moment().format("YYYY-MM-DD HH:mm:ss") }}' AS orderDate,
+    '{{Text27.text}}' AS purchaseAddress,
+    '0' AS status,
+    'Payment upon receipt' AS purchaseType
+FROM products p
+INNER JOIN carts c ON p.id = c.productID
+WHERE c.userID = '{{appsmith.store.resultId}}';

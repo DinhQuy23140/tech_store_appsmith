@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 162,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zn3avrxioj",
+  "leftColumn": 38,
+  "minWidth": 120,
+  "mobileBottomRow": 161,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 54,
+  "mobileTopRow": 157,
+  "needsErrorInfo": false,
+  "onClick": "{{addOrders.run(() => {\n\tconst response = addOrders?.data;\n\tif (response) {\n\t\tshowAlert(\"Order success\", \"success\"); \nnavigateTo(\"HomePage\", {});\nclearCart.run();\n\t} else {\n\t\tshowAlert(\"Order failure\", \"error\"); \n\t}\n}, (error) => {\n\tshowAlert(\"Order failed: \" + error.message, \"error\");\n})\n}}\n",
+  "originalBottomRow": 162,
+  "originalTopRow": 157,
+  "parentColumnSpace": 14.834442138671875,
+  "parentId": "11p1cgz9qk",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 54,
+  "text": "Order",
+  "topRow": 157,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "sfrfu67gkf",
+  "widgetName": "Button7"
+}

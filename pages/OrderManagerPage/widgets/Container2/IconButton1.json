@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#18181b",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "shopping-cart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vw2si5zo7a",
+  "leftColumn": 58,
+  "minWidth": 50,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onClick": "{{ appsmith.store.resultname ? (navigateTo(\"CartPage\", {})) : (navigateTo(\"LoginPage\", {}))}}",
+  "parentColumnSpace": 19.5,
+  "parentId": "cls0lh5y8a",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ciricxz50c",
+  "widgetName": "IconButton1"
+}

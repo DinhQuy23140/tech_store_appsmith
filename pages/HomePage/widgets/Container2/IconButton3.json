@@ -32,7 +32,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "onClick": "{{\nstoreValue('resultname', \"\"); navigateTo('LoginPage', {});}}\n",
+  "onClick": "{{\nstoreValue('resultname', \"\"); navigateTo('http://localhost:8080/app/userservice/loginpage-674002e3bab8f32719d4193b', {});}}\n",
   "parentColumnSpace": 17.625,
   "parentId": "hn3yk5483v",
   "parentRowSpace": 10,

@@ -39,6 +39,18 @@
     {
       "id": "CartPage",
       "isDefault": false
+    },
+    {
+      "id": "PaymentPage",
+      "isDefault": false
+    },
+    {
+      "id": "UserPage",
+      "isDefault": false
+    },
+    {
+      "id": "OrderManagerPage",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

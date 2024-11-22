@@ -1,0 +1,4 @@
+SELECT p.*,o.orderID, o.orderDate, o.status, o.quantityOrder 
+FROM orders o
+INNER JOIN products p ON p.id = o.productID
+WHERE o.status = '1';
